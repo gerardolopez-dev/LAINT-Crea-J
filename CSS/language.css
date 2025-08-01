@@ -1,0 +1,23 @@
+.grid-language {
+    width: 100%;
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: transparent; 
+    z-index: 1000; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.language {
+    justify-self: end; 
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.language a {
+    text-decoration: none; 
+    color: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

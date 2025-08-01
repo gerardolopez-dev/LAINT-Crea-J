@@ -1,0 +1,309 @@
+:root {
+    --background: #ffffff;
+    --text-primary: #000000;
+    --border-color: #000000;
+    --background-side: #000000;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] {
+    --background: #121212;
+    --text-primary: #ffffff;
+    --border-color: #ffffff;
+    --background-side: #000000;
+    --shadow: rgba(255, 255, 255, 0.3);
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+} 
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-section {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-section li a {
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav-section li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.6s ease;
+}
+.nav-section li a:hover{
+    color: #aaa;
+}
+.nav-section li a:hover::after {
+    transform: scaleX(0.8);
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+}
+.logo img{
+    height: 100%;
+    object-fit: contain;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+.contenedor-texto{
+    width: 600px;
+}
+.contenedor1{
+    background-color: #000;
+    display: flex;
+    padding: 100px 50px 100px 60px ;
+}
+.footer-new{
+    position: relative;
+    top: 80px;
+    color: white;
+}
+.link a{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+}
+.texto-noticia{
+    color: white;
+    font-size: 25px;
+}
+.imagen1{
+    margin-left: 70px;
+}
+.imagen1 img{
+    width: 750px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.contenedorLinea1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 0%;
+    position: absolute;
+    top: 80%;
+    left: 85px;
+}
+.linea-horizontal {
+    width: 1385px;
+    height: 2px;
+    background-color: white;
+}
+.contenedor-titulo h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.contenedor-noti-uno{
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+}
+.contenedor-img img{
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.3s ease-out;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.contenedor-img img:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+    transform: translateY(-3px) ;
+}
+h5{
+    margin-bottom: 0;
+}
+.autor{
+    margin-top: 5px;
+}
+.masDeLoMismo{
+    width: 29%;
+    position: relative;
+    left: 65%;
+    top: 40px;
+}
+.parrafoNoticia{
+    width: 750px;
+    position: absolute;
+    left: 5.5%;
+    margin-top: 50px;
+}
+.div-parra p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h3 a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+h3 a:hover{
+    color: grey;
+}
+.menu-button {
+    background: none;
+    border: none;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+.menu-button::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.6s ease;
+}
+.menu-button:hover{
+    color: #aaa;
+}
+.menu-button:hover::after{
+    transform: scaleX(0.8);
+}
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -535px; 
+    width: 500px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    transition: right 0.5s ease;
+    padding: 2rem 1rem;
+    z-index: 1200;
+    border-left: 2px solid white;
+}
+
+.side-menu.open {
+    right: 0; 
+}
+
+.side-menu a {
+    display: block;
+    color: white;
+    margin: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+.side-menu a:hover{
+    color: #aaa;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    float: right;
+    cursor: pointer;
+}
+.Icono{
+    width: 400px;
+    position: relative;
+    left: 10%;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1100; 
+  }
+  
+.overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+.video h1{
+    text-align: center;
+}
+.video{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.contenedor-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-menu h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.side-menu h3 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+    text-align: center;
+    font-style: italic;
+}
