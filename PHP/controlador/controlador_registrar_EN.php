@@ -4,8 +4,8 @@
         if (empty($_POST["nombre"]) || empty($_POST["email"]) || empty($_POST["password"])) {
             echo '<div class="alerta">Fields are empty</div>';
         } else {
-            $nombre   = trim($_POST['nombre']   ?? '');
-            $email   = trim($_POST['email']    ?? '');
+            $nombre = trim($_POST['nombre']  ?? '');
+            $email  = trim($_POST['email']  ?? '');
             $password = $_POST['password'] ?? '';
 
             $stmt = $conexion->prepare("SELECT 1 FROM formulario WHERE email = ? LIMIT 1");
