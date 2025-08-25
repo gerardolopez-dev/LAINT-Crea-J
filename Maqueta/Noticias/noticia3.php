@@ -16,8 +16,8 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia Tres</title>
-    <link rel="stylesheet" href="../../CSS/noticia3.css">
+    <title>Noticia</title>
+    <link rel="stylesheet" href="../../CSS/noticia.css">
     <link rel="stylesheet" href="../../CSS/boton-theme.css">
     <link rel="stylesheet" href="../../CSS/language.css"> 
     <link rel="shortcut icon" href="../../Media/favicon.ico" type="image/x-icon">
@@ -78,78 +78,86 @@ if (isset($_SESSION['usuario'])) {
             </div>
         </div>
     </header>
-    <section class="parrafoNoticia">
-        <div class="div-parra">
-            <p>
-                <strong>Barcelona, julio de 2025</strong> En una jugada inesperada que ha captado la atención del mundo de la moda y el deporte, la marca española Nude Project lanzó su más reciente colección cápsula: “Lil Kid, Big Dreams”, una colaboración con el ícono brasileño del fútbol, Ronaldinho. La propuesta no solo refuerza la conexión de la marca con la cultura urbana y el storytelling personal, sino que marca un nuevo hito en su crecimiento como referente global de moda con propósito.
-            </p>
-            <h1><strong>Un puente entre sueños, fútbol y calle</strong></h1>
-            <p>
-                La colección, compuesta por 30 piezas limitadas entre camisetas, sudaderas y accesorios, evoca la infancia de Ronaldinho en Porto Alegre, su pasión por el fútbol y los recuerdos que marcaron su camino hacia la leyenda. Cada prenda narra una etapa, combinando imágenes familiares del exfutbolista con elementos gráficos inspirados en el carnaval brasileño y la cultura callejera.
-            </p>
-            <p>
-                “Esta colección habla de mis sueños de niño, cuando jugaba descalzo en la calle con una pelota de trapo”, comentó Ronaldinho durante la presentación en la tienda insignia de Nude Project en Barcelona. “Es ropa con historia, con alma, con mensaje”.
-            </p>
-            <h1><strong>El estilo Nude, más vivo que nunca</strong></h1>
-            <p>
-                Fiel a su esencia, Nude Project mantiene en esta cápsula su estilo minimalista, urbano y auténtico, pero lo eleva con detalles emocionales que resuenan con su comunidad de jóvenes inconformes, creativos y soñadores. La estética combina colores cálidos, tipografías retro y fotografías personales del astro brasileño que refuerzan la narrativa de superación.
-            </p>
-            <p>
-                Además, siguiendo su tradición de drops exclusivos, las piezas se han distribuido en cantidades limitadas tanto online como en tiendas físicas, fomentando el sentido de comunidad y pertenencia que ha hecho de la marca un fenómeno en España y más allá.
-            </p>
-            <div class="contenedor-foto">
-                <img src="../../Media/Noticias/nudeRonal.jpg" alt="">
-            </div>
-            <h1><strong>Más que ropa, una filosofía</strong></h1>
-            <p>
-                Nude Project ha construido un universo propio en torno a la idea de ser uno mismo sin filtros. Esta colección no es la excepción. Bajo el lema “Lil Kid, Big Dreams”, la colaboración refuerza el mensaje de que <strong>los sueños nacen desde lo más simple</strong>, y que el talento, cuando se cultiva con autenticidad, puede cambiar el mundo.
-            </p>
-            <p>
-                “Para nosotros, Ronaldinho no es solo un deportista; es un símbolo de libertad creativa. Su forma de jugar al fútbol fue arte, y eso conecta profundamente con lo que hacemos en Nude”, explicaron los fundadores, Bruno Casanovas y Alex Benlloch.
-            </p>
-            <h1><strong>Impacto y expansión global</strong></h1>
-            <p>
-                El lanzamiento ha tenido un fuerte impacto en redes sociales, con miles de fans compartiendo fotos de sus prendas y mensajes inspiradores bajo el hashtag #LilKidBigDreams. La edición limitada se agotó en menos de 48 horas en varias plataformas, confirmando el poder de la comunidad Nude Project y su capacidad para fusionar moda, cultura y emoción.
-            </p>
-            <p>
-                Tras cerrar 2024 con 26 millones de euros en ventas, esta colaboración consolida el camino ascendente de la marca y refuerza su plan de internacionalización, con próximas aperturas en ciudades clave de Europa y Latinoamérica.
-            </p>
-        </div>
-    </section>
-    <aside class="masDeLoMismo">
-        <div class="contenedorMain">
-            <div class="contenedor-titulo">
-                <h1>MÁS DE LO MISMO</h1>
-                <hr color="grey">
-            </div>
-            <div class="contenedor-notis">
-                <div class="contenedor-noti-uno">
-                    <div class="texto-noti">
-                        <h5><strong>Tema: </strong>SubCulturas</h5>
-                        <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
-                        <h3><a href="../Noticias/noticia2.php"><strong>Cultura vintage en auge</strong></a></h3>
-                    </div>
-                    <div class="contenedor-img">
-                        <a href="../Noticias/noticia2.php"><img src="../../Media/Noticias/CultoMar.jpeg"></a>
-                    </div>
+
+    <main>
+        <section class="parrafoNoticia">
+            <div class="div-parra">
+                <p>
+                    <strong>Barcelona, julio de 2025</strong> En una jugada inesperada que ha captado la atención del mundo de la moda y el deporte, la marca española Nude Project lanzó su más reciente colección cápsula: “Lil Kid, Big Dreams”, una colaboración con el ícono brasileño del fútbol, Ronaldinho. La propuesta no solo refuerza la conexión de la marca con la cultura urbana y el storytelling personal, sino que marca un nuevo hito en su crecimiento como referente global de moda con propósito.
+                </p>
+                <h1><strong>Un puente entre sueños, fútbol y calle</strong></h1>
+                <p>
+                    La colección, compuesta por 30 piezas limitadas entre camisetas, sudaderas y accesorios, evoca la infancia de Ronaldinho en Porto Alegre, su pasión por el fútbol y los recuerdos que marcaron su camino hacia la leyenda. Cada prenda narra una etapa, combinando imágenes familiares del exfutbolista con elementos gráficos inspirados en el carnaval brasileño y la cultura callejera.
+                </p>
+                <p>
+                    “Esta colección habla de mis sueños de niño, cuando jugaba descalzo en la calle con una pelota de trapo”, comentó Ronaldinho durante la presentación en la tienda insignia de Nude Project en Barcelona. “Es ropa con historia, con alma, con mensaje”.
+                </p>
+                <h1><strong>El estilo Nude, más vivo que nunca</strong></h1>
+                <p>
+                    Fiel a su esencia, Nude Project mantiene en esta cápsula su estilo minimalista, urbano y auténtico, pero lo eleva con detalles emocionales que resuenan con su comunidad de jóvenes inconformes, creativos y soñadores. La estética combina colores cálidos, tipografías retro y fotografías personales del astro brasileño que refuerzan la narrativa de superación.
+                </p>
+                <p>
+                    Además, siguiendo su tradición de drops exclusivos, las piezas se han distribuido en cantidades limitadas tanto online como en tiendas físicas, fomentando el sentido de comunidad y pertenencia que ha hecho de la marca un fenómeno en España y más allá.
+                </p>
+                <div class="contenedor-foto">
+                    <img src="../../Media/Noticias/nudeRonal.jpg" alt="">
                 </div>
-                <hr color="grey" size="1">
-                <div class="contenedor-noti-uno">
-                    <div class="texto-noti">
-                        <h5><strong>Tema: </strong>SubCulturas</h5>
-                        <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
-                        <h3><a href="../Noticias/noticia5.php"><strong>Arte en parque Cuscatlán</strong></a></h3>
-                    </div>
-                    <div class="contenedor-img">
-                        <a href="../Noticias/noticia5.php"><img src="../../Media/Noticias/arteparquefoto.webp"></a>
-                    </div>
-                </div>
-                <hr color="grey" size="1">
+                <h1><strong>Más que ropa, una filosofía</strong></h1>
+                <p>
+                    Nude Project ha construido un universo propio en torno a la idea de ser uno mismo sin filtros. Esta colección no es la excepción. Bajo el lema “Lil Kid, Big Dreams”, la colaboración refuerza el mensaje de que <strong>los sueños nacen desde lo más simple</strong>, y que el talento, cuando se cultiva con autenticidad, puede cambiar el mundo.
+                </p>
+                <p>
+                    “Para nosotros, Ronaldinho no es solo un deportista; es un símbolo de libertad creativa. Su forma de jugar al fútbol fue arte, y eso conecta profundamente con lo que hacemos en Nude”, explicaron los fundadores, Bruno Casanovas y Alex Benlloch.
+                </p>
+                <h1><strong>Impacto y expansión global</strong></h1>
+                <p>
+                    El lanzamiento ha tenido un fuerte impacto en redes sociales, con miles de fans compartiendo fotos de sus prendas y mensajes inspiradores bajo el hashtag #LilKidBigDreams. La edición limitada se agotó en menos de 48 horas en varias plataformas, confirmando el poder de la comunidad Nude Project y su capacidad para fusionar moda, cultura y emoción.
+                </p>
+                <p>
+                    Tras cerrar 2024 con 26 millones de euros en ventas, esta colaboración consolida el camino ascendente de la marca y refuerza su plan de internacionalización, con próximas aperturas en ciudades clave de Europa y Latinoamérica.
+                </p>
             </div>
-        </div>
-    </aside>
+        </section>
+
+        <aside class="masDeLoMismo">
+            <div class="contenedorMain">
+                <div class="contenedor-titulo">
+                    <h1>MÁS DE LO MISMO</h1>
+                    <hr color="grey">
+                </div>
+                <div class="contenedor-notis">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Tema: </strong>SubCulturas</h5>
+                            <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
+                            <h3><a href="../Noticias/noticia2.php"><strong>Cultura vintage en auge</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia2.php"><img src="../../Media/Noticias/CultoMar.jpeg"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Tema: </strong>SubCulturas</h5>
+                            <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
+                            <h3><a href="../Noticias/noticia5.php"><strong>Arte en parque Cuscatlán</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia5.php"><img src="../../Media/Noticias/arteparquefoto.webp"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer-new">
+        <hr>
+        <h2>&copy; 2025 LAINT Magazine. Todos los derechos reservados.</h2>
+    </footer>
     <div class="grid-language">
-        <div class="language"><a href="../../Maqueta EN/noticia3.php">+ English</a></div>
+        <div class="language"><a href="../../Maqueta EN/Noticias/noticia3.php">+ English</a></div>
     </div>
     <div class="overlay" id="overlay"></div>
     <script src="../../JS/menuDesplegable.js"></script>

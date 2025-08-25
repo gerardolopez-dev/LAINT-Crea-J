@@ -16,7 +16,7 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia Seis</title>
+    <title>News</title>
     <link rel="stylesheet" href="../../CSS/noticia6.css">
     <link rel="stylesheet" href="../../CSS/boton-theme.css">
     <link rel="stylesheet" href="../../CSS/language.css"> 
@@ -59,96 +59,102 @@ if (isset($_SESSION['usuario'])) {
         </div>
     </div>
     <header>
-    <div class="contenedor1">
-        <div class="contenedor-texto">
-            <div class="link">
-                <a href="../index.php">News</a>
-            </div>
-            <div class="texto-noticia">
-                <h1>Thrifting in El Salvador: conscious fashion, history and community converge in urban culture</h1>
-            </div>
-            <div class="footer-new">
-                <h5>By <span>LAINT</span> May 24, 2025, 10:21am</h5>
-            </div>
-        </div>
-        <div class="contenedor-imagen">
-            <div class="imagen1">
-                <img src="../../Media/Noticias/ropaChucaPortada.jpeg">
-            </div>
-        </div>
-    </div>
-</header>
-<section class="parrafoNoticia">
-    <div class="div-parra">
-        <p>
-            <strong>San Salvador, July 2025</strong> What was once seen as an economic alternative has now become an urban identity trend: the culture of thrifting—buying stylish second-hand clothing—has emerged in El Salvador as a form of conscious consumption, alternative aesthetics, and youth entrepreneurship.
-        </p>
-        <h1><strong>From stigma to curating as art</strong></h1>
-        <p>
-            In its early days, used clothing in the country was tied to stigma: it was seen as linked to poverty or even associated with deceased people. However, this perception has radically changed in recent years.
-        </p>
-        <p>
-            According to a study by Garson & Shaw, El Salvador imported more than 35,000 tons of second-hand clothing in 2021—worth $62 million and about 25% of all clothing sold in the country—ranking it 23rd globally among importers of this type of garment.
-        </p>
-        <p>
-            Today, projects like Ropa Chuca or Ultra Caótica identify their brand with the word "thrift," elevating the selection of unique pieces—each curated like a work of art—into an individual and aesthetic experience.
-        </p>
-        <div class="contenedor-foto">
-            <img src="../../Media/Noticias/aMG_-Culto-Market03.jpg" alt="">
-        </div>
-        <h1><strong>Pioneering festival: COAFEST revolutionizes local thrift</strong></h1>
-        <p>
-            On October 13, 2024, the Museum of Art of El Salvador (MARTE) hosted COAFEST, described as the most ambitious thrift fashion festival in the country to date, with over 112 exhibitors and nearly 800 attendees.
-        </p>
-        <p>
-            Organized by Vitrinnea, the festival combined second-hand fashion, music, art, and gastronomy at affordable prices (starting at $1), aiming to transform the concept of used clothing commerce into a playful, conscious, and community-based experience.
-        </p>
-        <p>
-            Diego Pastore, creative director of the initiative, said the goal was to elevate the practice of thrifting into a cultural pedagogy: “COAFEST means ‘Coming of Age Festival’: it's the maturity of a new phase in how we consume fashion.”
-        </p>
-        <h1><strong>Digital platforms driving circular fashion</strong></h1>
-        <p>
-            Local startups like Vitrinnea have led the push for the circular market in the country, enabling the buying and selling of used clothing through an app that already reports thousands of users and monthly transactions. These platforms also facilitate the collection, photography, appraisal, and professional listing of garments, reducing prejudice about quality.
-        </p>
-        <p>
-            Likewise, initiatives like The Closet Sale, led by digital content creators, continue to hold pop-up fairs and events where thrifting is mixed with food, music, and personal closet curating, reinforcing the sense of a young, alternative community.
-        </p>
-    </div>
-</section>
-<aside class="masDeLoMismo">
-    <div class="contenedorMain">
-        <div class="contenedor-titulo">
-            <h1>MORE OF THE SAME</h1>
-            <hr color="grey">
-        </div>
-        <div class="contenedor-notis">
-            <div class="contenedor-noti-uno">
-                <div class="texto-noti">
-                    <h5><strong>Topic: </strong>Sports</h5>
-                    <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
-                    <h3><a href="../Noticias/noticia1.php"><strong>Thousands will celebrate Skateboarding Day</strong></a></h3>
+        <div class="contenedor1">
+            <div class="contenedor-texto">
+                <div class="link">
+                    <a href="../index.php">News</a>
                 </div>
-                <div class="contenedor-img">
-                    <a href="../Noticias/noticia1.php"><img src="../../Media/mediaIndex/GoSkate.jpg"></a>
+                <div class="texto-noticia">
+                    <h1>Thrifting in El Salvador: conscious fashion, history, and community shaping urban culture</h1>
+                </div>
+                <div class="footer-new">
+                    <h5>By <span>LAINT</span> May 24, 2025, 10:21am</h5>
                 </div>
             </div>
-            <hr color="grey" size="1">
-            <div class="contenedor-noti-uno">
-                <div class="texto-noti">
-                    <h5><strong>Topic: </strong>Fashion</h5>
-                    <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
-                    <h3><a href="../Noticias/noticia3.php"><strong>The latest from Nude Project</strong></a></h3>
-                </div>
-                <div class="contenedor-img">
-                    <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
+            <div class="contenedor-imagen">
+                <div class="imagen1">
+                    <img src="../../Media/Noticias/ropaChucaPortada.jpeg">
                 </div>
             </div>
-            <hr color="grey" size="1">
         </div>
-    </div>
-</aside>
+    </header>
+    <main>
+        <section class="parrafoNoticia">
+            <div class="div-parra">
+                <p>
+                    <strong>San Salvador, July 2025 </strong> What just a few years ago was seen as an affordable option has now turned into a marker of urban identity: thrifting —buying stylish secondhand clothing— has emerged in El Salvador as a form of conscious consumption, alternative aesthetics, and a boost for youth entrepreneurship.
+                </p>
+                <h1><strong>From stigma to curation as art</strong></h1>
+                <p>
+                    In its early days, secondhand clothing in the country carried stigma: it was associated with poverty or even tied to the belongings of the deceased. But this perception has radically shifted in recent years.
+                </p>
+                <p>
+                    According to a Garson & Shaw study, El Salvador imported more than 35,000 tons of secondhand clothing in 2021 —worth $62 million and making up nearly 25% of all clothing sold in the country— ranking 23rd worldwide as an importer of pre-owned garments.
+                </p>
+                <p>
+                    Today, projects like <i>Ropa Chuca</i> and <i>Ultra Caótica</i> embrace the word "thrift," turning the selection of unique pieces —each curated like a work of art— into an aesthetic and personal experience.
+                </p>
+                <div class="contenedor-foto">
+                    <img src="../../Media/Noticias/aMG_-Culto-Market03.jpg" alt="">
+                </div>
+                <h1><strong>Pioneering festival: COAFEST revolutionizes local thrift</strong></h1>
+                <p>
+                    On October 13, 2024, the Museum of Art of El Salvador (MARTE) hosted COAFEST, described as the country’s most ambitious thrift fashion festival to date, with more than 112 exhibitors and nearly 800 attendees.
+                </p>
+                <p>
+                    Organized by Vitrinnea, the festival mixed secondhand fashion, music, art, and food at accessible prices (starting at just $1), seeking to transform the idea of buying used clothes into a playful, conscious, and community-driven experience.
+                </p>
+                <p>
+                    Diego Pastore, the creative director behind the initiative, explained that the goal was to elevate thrifting into cultural pedagogy: “COAFEST means ‘Coming of Age Festival’: it marks the maturity of a new stage in how we consume fashion.”
+                </p>
+                <h1><strong>Digital platforms driving circular fashion</strong></h1>
+                <p>
+                    Local startups like Vitrinnea are leading the way in boosting the circular market in the country, enabling people to buy and sell used clothing through an app that already reports thousands of users and monthly transactions. These platforms also manage collection, photography, pricing, and publishing of garments in a professional format, helping reduce prejudices about quality.
+                </p>
+                <p>
+                    Meanwhile, initiatives like <i>The Closet Sale</i>, led by digital creators, continue to host pop-ups and traveling fairs where thrifting is combined with food, music, and personal closet curation —strengthening a sense of young, alternative community.
+                </p>
+            </div>
+        </section>
+        <aside class="masDeLoMismo">
+            <div class="contenedorMain">
+                <div class="contenedor-titulo">
+                    <h1>MORE OF THE SAME</h1>
+                    <hr color="grey">
+                </div>
+                <div class="contenedor-notis">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Topic: </strong>Sports</h5>
+                            <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
+                            <h3><a href="../Noticias/noticia1.html"><strong>Thousands to Celebrate Skateboarding Day</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia1.php"><img src="../../Media/mediaIndex/GoSkate.jpg"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Topic: </strong>Fashion</h5>
+                            <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
+                            <h3><a href="../Noticias/noticia3.php"><strong>The Latest from Nude Project</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer-new">
+        <hr>
+        <h2>&copy; 2025 LAINT Magazine. All rights reserved.</h2>
+    </footer>
     <div class="grid-language">
-        <div class="language"><a href="../../Maqueta/noticia6.php">+ Español</a></div>
+        <div class="language"><a href="../../Maqueta/Noticias/noticia6.php">+ Español</a></div>
     </div>
     <div class="overlay" id="overlay"></div>
     <script src="../../JS/menuDesplegable.js"></script>

@@ -16,8 +16,8 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia Uno</title>
-    <link rel="stylesheet" href="../../CSS/noticia1.css">
+    <title>Noticia</title>
+    <link rel="stylesheet" href="../../CSS/noticia.css">
     <link rel="stylesheet" href="../../CSS/boton-theme.css">
     <link rel="stylesheet" href="../../CSS/language.css"> 
     <link rel="shortcut icon" href="../../Media/favicon.ico" type="image/x-icon">
@@ -78,70 +78,78 @@ if (isset($_SESSION['usuario'])) {
             </div>
         </div>
     </header>
-    <section class="parrafoNoticia">
-        <div class="div-parra">
-            <p>
-                San Salvador, 21 de junio de 2025 — Las calles de la capital se llenaron de energía, pasión y cultura urbana este sábado con la celebración del Go Skate Day 2025, un evento que reunió
-                a miles de patinadores salvadoreños en una jornada que combinó deporte, arte y comunidad.
-            </p>
-            <p>
-               Desde tempranas horas, el ambiente comenzó a calentar en el Redondel Masferrer, punto de partida para el icónico downhill que llevó a los participantes a recorrer el Paseo General Escalón hasta llegar a la Plaza El Salvador del Mundo. Durante el trayecto, skaters de todas las edades demostraron su talento sobre la tabla, con trucos, velocidad y estilo que capturaron la atención de los transeúntes y asistentes.
-            <p>
-                El evento, organizado por colectivos locales y apoyado por la comunidad skater, logró congregar a cerca de 5,000 personas, entre patinadores, familias y espectadores. Además del recorrido principal, se llevaron a cabo concursos de trucos, rifas de patinetas y actividades que incentivaron la convivencia y el intercambio entre generaciones de riders.
-            </p>
-            <p>
-                “Es la primera vez que hago el downhill completo y fue una experiencia increíble”, comentó Andrés, un joven patinador de Soyapango. “Este tipo de espacios nos permiten expresarnos y sentirnos parte de algo más grande.
-            </p>
-            <p>
-                El Go Skate Day, celebrado a nivel mundial cada 21 de junio, busca visibilizar el skateboarding como un deporte, una forma de vida y una herramienta de transformación social. En El Salvador, la fecha ha ganado fuerza en los últimos años, convirtiéndose en un símbolo de resistencia y creatividad para la juventud urbana.
-            </p>
-            <p>
-                Colectivos como los de Santa Ana, San Miguel y La Libertad también anunciaron actividades similares durante el fin de semana, fortaleciendo la red de skaters a nivel nacional. En redes sociales, el evento fue tendencia bajo etiquetas como #GoSkateDay2025SV, donde los participantes compartieron fotos y videos de sus recorridos.
-            </p>
-            <p>
-                Desde el Ministerio de Cultura y la alcaldía capitalina, se destacó la importancia de apoyar estas iniciativas y se reafirmó el compromiso de habilitar más espacios públicos para la práctica segura del skateboarding.
-            </p>
-            <p>
-                Con esta vibrante jornada, el Go Skate Day 2025 no solo celebró el amor por las patinetas, sino que también reafirmó el valor de la cultura urbana como parte fundamental del tejido social salvadoreño.
-            </p>
-        </div>
-    </section>
-    <aside class="masDeLoMismo">
-        <div class="contenedorMain">
-            <div class="contenedor-titulo">
-                <h1>MÁS DE LO MISMO</h1>
-                <hr color="grey">
+    <main>
+        <section class="parrafoNoticia">
+            <div class="div-parra">
+                <p>
+                    San Salvador, 21 de junio de 2025 — Las calles de la capital se llenaron de energía, pasión y cultura urbana este sábado con la celebración del Go Skate Day 2025, un evento que reunió
+                    a miles de patinadores salvadoreños en una jornada que combinó deporte, arte y comunidad.
+                </p>
+                <p>
+                Desde tempranas horas, el ambiente comenzó a calentar en el Redondel Masferrer, punto de partida para el icónico downhill que llevó a los participantes a recorrer el Paseo General Escalón hasta llegar a la Plaza El Salvador del Mundo. Durante el trayecto, skaters de todas las edades demostraron su talento sobre la tabla, con trucos, velocidad y estilo que capturaron la atención de los transeúntes y asistentes.
+                <p>
+                    El evento, organizado por colectivos locales y apoyado por la comunidad skater, logró congregar a cerca de 5,000 personas, entre patinadores, familias y espectadores. Además del recorrido principal, se llevaron a cabo concursos de trucos, rifas de patinetas y actividades que incentivaron la convivencia y el intercambio entre generaciones de riders.
+                </p>
+                <p>
+                    “Es la primera vez que hago el downhill completo y fue una experiencia increíble”, comentó Andrés, un joven patinador de Soyapango. “Este tipo de espacios nos permiten expresarnos y sentirnos parte de algo más grande.
+                </p>
+                <p>
+                    El Go Skate Day, celebrado a nivel mundial cada 21 de junio, busca visibilizar el skateboarding como un deporte, una forma de vida y una herramienta de transformación social. En El Salvador, la fecha ha ganado fuerza en los últimos años, convirtiéndose en un símbolo de resistencia y creatividad para la juventud urbana.
+                </p>
+                <p>
+                    Colectivos como los de Santa Ana, San Miguel y La Libertad también anunciaron actividades similares durante el fin de semana, fortaleciendo la red de skaters a nivel nacional. En redes sociales, el evento fue tendencia bajo etiquetas como #GoSkateDay2025SV, donde los participantes compartieron fotos y videos de sus recorridos.
+                </p>
+                <p>
+                    Desde el Ministerio de Cultura y la alcaldía capitalina, se destacó la importancia de apoyar estas iniciativas y se reafirmó el compromiso de habilitar más espacios públicos para la práctica segura del skateboarding.
+                </p>
+                <p>
+                    Con esta vibrante jornada, el Go Skate Day 2025 no solo celebró el amor por las patinetas, sino que también reafirmó el valor de la cultura urbana como parte fundamental del tejido social salvadoreño.
+                </p>
             </div>
-            <div class="contenedor-notis">
-                <div class="contenedor-noti-uno">
-                    <div class="texto-noti">
-                        <h5><strong>Tema: </strong>Moda</h5>
-                        <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
-                        <h3><a href="../Noticias/noticia3.php"><strong>Lo ultimo de Nude Project</strong></a></h3>
-                    </div>
-                    <div class="contenedor-img">
-                        <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
-                    </div>
+        </section>
+        <aside class="masDeLoMismo">
+            <div class="contenedorMain">
+                <div class="contenedor-titulo">
+                    <h1>MÁS DE LO MISMO</h1>
+                    <hr color="grey">
                 </div>
-                <hr color="grey" size="1">
-                <div class="contenedor-noti-uno">
-                    <div class="texto-noti">
-                        <h5><strong>Tema: </strong>SubCulturas</h5>
-                        <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
-                        <h3><a href="../Noticias/noticia5.php"><strong>Arte en parque Cuscatlán</strong></a></h3>
+                <div class="contenedor-notis">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Tema: </strong>Moda</h5>
+                            <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
+                            <h3><a href="../Noticias/noticia3.php"><strong>Lo ultimo de Nude Project</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
+                        </div>
                     </div>
-                    <div class="contenedor-img">
-                        <a href="../Noticias/noticia5.php"><img src="../../Media/Noticias/arteparquefoto.webp"></a>
+                    <hr color="grey" size="1">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Tema: </strong>SubCulturas</h5>
+                            <h5 class="autor"><strong>Autor:</strong> Creado por equipo LAINT</h5>
+                            <h3><a href="../Noticias/noticia5.php"><strong>Arte en parque Cuscatlán</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia5.php"><img src="../../Media/Noticias/arteparquefoto.webp"></a>
+                        </div>
                     </div>
+                    <hr color="grey" size="1">
                 </div>
-                <hr color="grey" size="1">
             </div>
-        </div>
-    </aside>
-    <div class="grid-language">
-        <div class="language"><a href="../../Maqueta EN/noticia1.php">+ English</a></div>
-    </div>
+        </aside>
+    </main>
+
+    <footer class="footer-new">
+        <hr>
+        <h2>&copy; 2025 LAINT Magazine. Todos los derechos reservados.</h2>
+    </footer>
+
     <div class="overlay" id="overlay"></div>
+    <div class="grid-language">
+        <div class="language"><a href="../../Maqueta EN/Noticias/noticia1.php">+ English</a></div>
+    </div>
     <script src="../../JS/menuDesplegable.js"></script>
     <script src="../../JS/boton.js"></script>
 </body>

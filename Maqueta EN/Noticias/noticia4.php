@@ -16,8 +16,8 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia Cuatro</title>
-    <link rel="stylesheet" href="../../CSS/noticia4.css">
+    <title>News</title>
+    <link rel="stylesheet" href="../../CSS/noticia.css">
     <link rel="stylesheet" href="../../CSS/boton-theme.css">
     <link rel="stylesheet" href="../../CSS/language.css"> 
     <link rel="shortcut icon" href="../../Media/favicon.ico" type="image/x-icon">
@@ -59,98 +59,103 @@ if (isset($_SESSION['usuario'])) {
         </div>
     </div>
     <header>
-    <div class="contenedor1">
-        <div class="contenedor-texto">
-            <div class="link">
-                <a href="../index.php">Current Events</a>
-            </div>
-            <div class="texto-noticia">
-                <h1>Young Salvadorans Make Their Mark on the Global Urban Culture Scene with Kardo 2025</h1>
-            </div>
-            <div class="footer-new">
-                <h5>By <span>LAINT</span> May 24, 2025, 10:21am</h5>
-            </div>
-        </div>
-        <div class="contenedor-imagen">
-            <div class="imagen1">
-                <img src="../../Media/Noticias/noticiaKardo.jpg">
-            </div>
-        </div>
-    </div>
-</header>
-<section class="parrafoNoticia">
-    <div class="div-parra">
-        <p>
-            <strong>San Salvador, July 2025</strong> El Salvador has started gaining recognition on the global circuit of urban disciplines through its participation in Kardo 8, an international competition celebrating emerging talent in areas like freestyle, BMX, skateboarding, graffiti, parkour, breakdance, and audiovisual production.
-        </p>
-        
-        <p>
-            This year, more than 40 young Salvadorans took part in the qualifying process to represent the country in the grand final to be held in Stavropol, Russia, in August. This participation marks a milestone for national urban culture, providing a space for visibility and validation of artistic and sports expressions that have historically been marginalized.
-        </p>
-        <div class="contenedor-p">
-            <p>
-                “These types of competitions allow young people from often overlooked communities to find a platform to showcase their talent—and most importantly—feel part of an international community,” said Hugo Rubio, cultural manager and official Kardo representative in El Salvador.
-            </p>
-        </div>
-        <p>
-            The qualification dynamic is based on sending videos of up to one minute via the official site <a href="https://kardoaward.com/">kardoaward.com</a>, where an international jury evaluates creativity, technique, and performance. The initiative has been well received on social media, where accounts like @kardoelsalvador have created a sense of community and guidance for local participants.
-        </p>
-        <p>
-            Additionally, it has been announced that El Salvador could become a host site for future in-person qualifiers, increasing access for youth without technological resources.
-        </p>
-        <div class="contenedor-foto">
-            <img src="../../Media/Noticias/kardoimg.jpg" alt="">
-        </div>
-        <h1><strong>More Than a Competition: A Cultural Window</strong></h1>
-        <p>
-            Kardo is not just a tournament; it's a global celebration of contemporary urban cultures. Its approach goes beyond extreme sports, welcoming graffiti artists, beatmakers, DJs, filmmakers, and rappers. El Salvador's inclusion in this platform is a crucial opportunity to break stigmas and showcase the richness of local urban expressions.
-        </p>
-        <p>
-            Salvadoran finalists will have the chance to compete against more than 40 countries, connecting with thousands of young artists in an experience that blends competition, training, and cultural exchange.
-        </p>
-        <h1><strong>A Movement That’s Just Beginning</strong></h1>
-        <p>
-            The positive response has inspired local organizers to expand the initiative through workshops, internal competitions, and partnerships with institutions that promote youth art and sports.
-        </p>
-        <p>
-            “We don’t want this to be an isolated event, but a door that remains open so that Salvadoran urban talent can reach where it belongs: the world,” Rubio added.
-        </p>
-    </div>
-</section>
-<aside class="masDeLoMismo">
-    <div class="contenedorMain">
-        <div class="contenedor-titulo">
-            <h1>MORE OF THE SAME</h1>
-            <hr color="grey">
-        </div>
-        <div class="contenedor-notis">
-            <div class="contenedor-noti-uno">
-                <div class="texto-noti">
-                    <h5><strong>Topic: </strong>Sports</h5>
-                    <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
-                    <h3><a href="../Noticias/noticia1.php"><strong>Thousands Celebrate Go Skateboarding Day</strong></a></h3>
+        <div class="contenedor1">
+            <div class="contenedor-texto">
+                <div class="link">
+                    <a href="../index.php">News</a>
                 </div>
-                <div class="contenedor-img">
-                    <a href="../Noticias/noticia1.php"><img src="../../Media/mediaIndex/GoSkate.jpg"></a>
+                <div class="texto-noticia">
+                    <h1>Young Salvadorans Break into the Global Urban Culture Scene with Kardo 2025</h1>
+                </div>
+                <div class="footer-new">
+                    <h5>By <span>LAINT</span> May 24, 2025, 10:21am</h5>
                 </div>
             </div>
-            <hr color="grey" size="1">
-            <div class="contenedor-noti-uno">
-                <div class="texto-noti">
-                    <h5><strong>Topic: </strong>Fashion</h5>
-                    <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
-                    <h3><a href="../Noticias/noticia3.php"><strong>The Latest from Nude Project</strong></a></h3>
-                </div>
-                <div class="contenedor-img">
-                    <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
+            <div class="contenedor-imagen">
+                <div class="imagen1">
+                    <img src="../../Media/Noticias/noticiaKardo.jpg">
                 </div>
             </div>
-            <hr color="grey" size="1">
         </div>
-    </div>
-</aside>
+    <main>
+        <section class="parrafoNoticia">
+            <div class="div-parra">
+                <p>
+                    <strong>San Salvador, July 2025 </strong> — El Salvador is making its mark on the global stage of urban disciplines with its participation in Kardo 8, an international competition that celebrates emerging talent in areas such as freestyle, BMX, skateboarding, graffiti, parkour, breakdance, and audiovisual production.
+                </p>
+                <p>
+                    This year, more than 40 young Salvadorans have taken part in the qualifying process to represent the country at the grand final to be held in Stavropol, Russia, in August. Their participation marks a milestone for the nation’s urban culture, offering visibility and legitimacy to artistic and athletic expressions that have historically been marginalized.
+                </p>
+                <div class="contenedor-p">
+                    <p>
+                        “Competitions like this allow young people from often-overlooked communities to find a platform to showcase their talent—and most importantly, to feel part of an international community,” said Hugo Rubio, cultural manager and official Kardo representative in El Salvador.
+                    </p>
+                </div>
+                <p>
+                    The qualification process is based on submitting one-minute videos through the official site <a href="https://kardoaward.com/">kardoaward.com</a>, where an international jury evaluates creativity, technique, and performance. The initiative has been well-received on social media, with accounts like @kardoelsalvador building community and guidance for local participants.
+                </p>
+                <p>
+                    It has also been announced that El Salvador could, in the future, become one of the physical host locations for qualifiers—making the competition more accessible to young people without access to technology.
+                </p>
+                <div class="contenedor-foto">
+                    <img src="../../Media/Noticias/kardoimg.jpg" alt="">
+                </div>
+                <h1><strong>More Than a Competition: A Cultural Showcase</strong></h1>
+                <p>
+                    Kardo is not just a tournament; it is a global celebration of contemporary urban cultures. Its scope goes beyond extreme sports, embracing graffiti artists, beatmakers, DJs, filmmakers, and rappers. El Salvador’s inclusion in this platform represents a crucial opportunity to break down stigmas and highlight the richness of local urban expressions.
+                </p>
+                <p>
+                    Salvadoran finalists will have the chance to compete against participants from over 40 countries, connecting with thousands of young artists in an experience that blends competition, learning, and cultural exchange.
+                </p>
+                <h1><strong>A Movement Just Beginning</strong></h1>
+                <p>
+                    The positive response has motivated local organizers to expand the initiative with workshops, internal competitions, and partnerships with institutions that promote youth art and sports.
+                </p>
+                <p>
+                    “We want this to be more than a one-off event. We want it to be a permanent gateway for Salvadoran urban talent to reach where it truly belongs: the world,” added Rubio.
+                </p>
+            </div>
+        </section>
+
+        <aside class="masDeLoMismo">
+            <div class="contenedorMain">
+                <div class="contenedor-titulo">
+                    <h1>MORE OF THE SAME</h1>
+                    <hr color="grey">
+                </div>
+                <div class="contenedor-notis">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Topic: </strong>Sports</h5>
+                            <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
+                            <h3><a href="../Noticias/noticia1.php"><strong>Thousands Celebrate Skateboarding Day</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia1.php"><img src="../../Media/mediaIndex/GoSkate.jpg"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                    <div class="contenedor-noti-uno">
+                        <div class="texto-noti">
+                            <h5><strong>Topic: </strong>Fashion</h5>
+                            <h5 class="autor"><strong>Author:</strong> Created by LAINT team</h5>
+                            <h3><a href="../Noticias/noticia3.php"><strong>The Latest from Nude Project</strong></a></h3>
+                        </div>
+                        <div class="contenedor-img">
+                            <a href="../Noticias/noticia3.php"><img src="../../Media/Noticias/noticiaNudeFoto.jpg"></a>
+                        </div>
+                    </div>
+                    <hr color="grey" size="1">
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer-new">
+        <hr>
+        <h2>&copy; 2025 LAINT Magazine. All rights reserved.</h2>
+    </footer>
     <div class="grid-language">
-        <div class="language"><a href="../../Maqueta/noticia4.php">+ Español</a></div>
+        <div class="language"><a href="../../Maqueta/Noticias/noticia4.php">+ Español</a></div>
     </div>
     <div class="overlay" id="overlay"></div>
     <script src="../../JS/menuDesplegable.js"></script>

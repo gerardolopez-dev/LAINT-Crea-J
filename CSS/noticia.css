@@ -14,16 +14,29 @@
     --shadow: rgba(255, 255, 255, 0.3);
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--background);
     color: var(--text-primary);
     transition: background-color 0.3s ease, color 0.3s ease;
-} 
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 60px;
+}
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,15 +49,14 @@ nav {
     padding: 10px 0px;
     background-color: #000;
     border-bottom: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .nav-section {
     display: flex;
     list-style: none;
     gap: 40px;
     align-items: center;
 }
-
 .nav-section li a {
     padding: 0 10px;
     position: relative;
@@ -65,90 +77,114 @@ nav {
     transform-origin: center;
     transition: transform 0.6s ease;
 }
-.nav-section li a:hover{
-    color: #aaa;
-}
-.nav-section li a:hover::after {
-    transform: scaleX(0.8);
-}
+.nav-section li a:hover{ color: #aaa; }
+.nav-section li a:hover::after { transform: scaleX(0.8); }
 .logo{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     height: 60px;
 }
-.logo img{
-    height: 100%;
-    object-fit: contain;
-}
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
+.logo img{ height: 100%; object-fit: contain; }
 
-    .nav-section {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
+    nav { flex-direction: column; gap: 10px; }
+    .nav-section { justify-content: center; flex-wrap: wrap; }
 }
-.contenedor-texto{
-    width: 600px;
+
+.contenedor-texto { 
+    width: 600px; 
 }
-.contenedor1{
+
+.contenedor1 {
     background-color: #000;
     display: flex;
-    padding: 100px 50px 100px 60px ;
+    padding: 100px 50px 100px 60px; 
 }
-.footer-new{
+
+.footer-new {
     position: relative;
     top: 80px;
     color: white;
 }
-.link a{
+
+.link a {
     color: white;
     font-size: 15px;
     position: relative;
     top: 20px;
 }
-.texto-noticia{
-    color: white;
-    font-size: 25px;
+
+.texto-noticia { 
+    color: white; 
+    font-size: 25px; 
 }
-.imagen1{
-    margin-left: 70px;
+
+.imagen1 { 
+    margin-left: 70px; 
 }
-.imagen1 img{
+
+.imagen1 img {
     width: 750px;
     height: 450px;
     border: 1px solid white;
     border-radius: 5px;
 }
-.contenedorLinea1 {
-    display: flex;
-    justify-content: center; 
-    align-items: center;    
-    height: 0%;
-    position: absolute;
-    top: 80%;
-    left: 85px;
+
+.parrafoNoticia {
+    width: 60%;
+    position: relative;
+    margin-top: 20px;
 }
-.linea-horizontal {
-    width: 1385px;
-    height: 2px;
-    background-color: white;
+.div-parra p { 
+    margin-bottom: 20px; 
+    font-size: 20px; 
 }
-.contenedor-titulo h1{
+
+.contenedor-p {
+    padding-left: 30px;
+    border-left: 4px solid grey;
+    font-style: italic;
+}
+
+summary {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lista-obras li {
+    padding: 15px;
+}
+
+.animated-details .contenido {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: height 0.4s ease, opacity 0.4s ease;
+}
+
+.masDeLoMismo{
+    width: 30%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.contenedor-titulo h1 {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 0;
 }
-.contenedor-noti-uno{
+
+.contenedor-noti-uno {
     display: flex;
     border-radius: 10px;
-    width: 500px;
+    width: 100%;
 }
-.contenedor-img img{
+
+.contenedor-img img {
     width: 160px;
     height: 110px;
     border-radius: 10px;
@@ -157,40 +193,38 @@ nav {
     transition: 0.3s ease-out;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
-.contenedor-img img:hover{
-    transform: scale(1.2);
+
+.contenedor-img img:hover {
+    transform: scale(1.1) translateY(-3px);
     transition: 0.2s ease-in;
-    transform: translateY(-3px) ;
 }
-h5{
-    margin-bottom: 0;
+
+h5 { 
+    margin-bottom: 0; 
 }
-.autor{
-    margin-top: 5px;
+
+.autor { 
+    margin-top: 5px; 
 }
-.masDeLoMismo{
-    width: 27.5%;
-    position: relative;
-    left: 65%;
-    top: 40px;
+
+h3 a { 
+    text-decoration: none; 
+    color: var(--text-primary); 
 }
-.parrafoNoticia{
-    width: 750px;
-    position: absolute;
-    left: 5.5%;
-    margin-top: 50px;
+
+h3 a:hover { 
+    color: grey; 
 }
-.div-parra p{
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-h3 a{
-    text-decoration: none;
+
+footer.footer-new {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    font-size: 9px;
     color: var(--text-primary);
 }
-h3 a:hover{
-    color: grey;
-}
+
 .menu-button {
     background: none;
     border: none;
@@ -199,7 +233,8 @@ h3 a:hover{
     font-size: 16px;
     cursor: pointer;
     transition: color 0.3s ease;
-  }
+}
+
 .menu-button::after{
     content: '';
     position: absolute;
@@ -212,12 +247,15 @@ h3 a:hover{
     transform-origin: center;
     transition: transform 0.6s ease;
 }
-.menu-button:hover{
-    color: #aaa;
+
+.menu-button:hover { 
+    color: #aaa; 
 }
-.menu-button:hover::after{
-    transform: scaleX(0.8);
+
+.menu-button:hover::after { 
+    transform: scaleX(0.8); 
 }
+
 .side-menu {
     position: fixed;
     top: 0;
@@ -230,87 +268,6 @@ h3 a:hover{
     padding: 2rem 1rem;
     z-index: 1200;
     border-left: 2px solid white;
-}
-
-.side-menu.open {
-    right: 0; 
-}
-
-.side-menu a {
-    display: block;
-    color: white;
-    margin: 1rem 0;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-}
-.side-menu a:hover{
-    color: #aaa;
-}
-
-.close-btn {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    float: right;
-    cursor: pointer;
-}
-.Icono{
-    width: 400px;
-    position: relative;
-    left: 10%;
-}
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out;
-    z-index: 1100; 
-  }
-  
-.overlay.visible {
-    opacity: 1;
-    visibility: visible;
-}
-.contenedor-foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid black;
-    padding: 40px;
-    border-bottom: 2px solid black;
-}
-.contenedor-foto img{
-    width: 650px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-.contenedor-p{
-    padding-left: 30px;
-    border-left: 4px solid grey;
-    font-style: italic;
-}
-summary{
-    
-    color: rgb(0, 0, 0);
-    padding: 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-}
-.lista-obras li{
-    padding: 15px;
-}
-.animated-details .contenido {
-  overflow: hidden;
-  height: 0;
-  opacity: 0;
-  transition: height 0.4s ease, opacity 0.4s ease;
 }
 
 .side-menu h1 {
@@ -330,4 +287,60 @@ summary{
     margin: 0 0 2rem 0;
     text-align: center;
     font-style: italic;
+}
+
+.side-menu.open { 
+    right: 0; 
+}
+
+.side-menu a {
+    display: block;
+    color: white;
+    margin: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+.side-menu a:hover { color: #aaa; }
+
+.close-btn {
+    background: none; border: none; color: white;
+    font-size: 2rem; float: right; cursor: pointer;
+}
+
+.Icono { 
+    width: 400px; 
+    position: relative; 
+    left: 10%; }
+
+.overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1100; 
+}
+
+.overlay.visible { 
+    opacity: 1; 
+    visibility: visible; 
+}
+
+.video h1 { 
+    text-align: center; 
+}
+
+.video { border-bottom: 2px solid black; 
+    margin-bottom: 20px; 
+}
+
+.contenedor-foto {
+    display: flex; justify-content: center; align-items: center;
+    border-top: 2px solid black; padding: 40px; border-bottom: 2px solid black;
+}
+
+.contenedor-foto img{ 
+    width: 600px; 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
