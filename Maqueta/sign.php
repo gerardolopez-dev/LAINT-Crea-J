@@ -65,12 +65,12 @@ if (isset($_SESSION['usuario'])) {
         <div class="container-form">
            <form action="" class="sign-in" method="POST">
                 <h2>Iniciar Sesion</h2>
-                <div class="social-network">
+                <!-- <div class="social-network">
                     <ion-icon name="logo-twitch"></ion-icon>
                     <ion-icon name="logo-twitter"></ion-icon>
                     <ion-icon name="logo-instagram"></ion-icon>
                     <ion-icon name="logo-tiktok"></ion-icon>
-                </div>
+                </div> -->
                 <span>Use su correo y contraseña</span>
                 <div class="container-input">
                     <ion-icon name="mail-outline"></ion-icon>
@@ -92,12 +92,12 @@ if (isset($_SESSION['usuario'])) {
         <div class="container-form">
             <form action="" class="sign-up" method="POST">
                 <h2>Registrarse</h2>
-                <div class="social-network">
+                <!-- <div class="social-network">
                     <ion-icon name="logo-twitch"></ion-icon>
                     <ion-icon name="logo-twitter"></ion-icon>
                     <ion-icon name="logo-instagram"></ion-icon>
                     <ion-icon name="logo-tiktok"></ion-icon>
-                </div>
+                </div> -->
                 <span>Use su correo electrónico para registrarse</span>
                 <div class="container-input">
                     <ion-icon name="person-outline"></ion-icon>
@@ -150,8 +150,8 @@ if (isset($_SESSION['usuario'])) {
         document.querySelector('.container').classList.add('toggle-two');
     <?php endif; ?>
     </script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
     
 </body>
     <script src="../JS/formulario.js"></script>

@@ -16,7 +16,7 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Magazine</title>
     <link rel="stylesheet" href="../CSS/inicioStyle.css">
     <link rel="stylesheet" href="../CSS/boton-theme.css"> 
     <link rel="stylesheet" href="../CSS/language.css"> 

@@ -6,6 +6,15 @@
     --shadow: rgba(0, 0, 0, 0.3);
 }
 
+@view-transition{
+    navigation: auto;
+}
+
+:view-transition-group(*) {
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+} 
+
 [data-theme="dark"] {
     --background: #121212;
     --text-primary: #ffffff;

@@ -14,6 +14,15 @@ nav {
     border-bottom: 1px solid #ddd;
 }
 
+@view-transition{
+    navigation: auto;
+}
+
+:view-transition-group(*) {
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+} 
+
 .nav-section {
     display: flex;
     list-style: none;

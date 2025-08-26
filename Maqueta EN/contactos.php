@@ -16,7 +16,7 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../CSS/contactos.css">
     <link rel="stylesheet" href="../CSS/boton-theme.css">
     <link rel="stylesheet" href="../CSS/language.css"> 
@@ -60,7 +60,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <h1 class="titulo">Contact</h1>
-    <p>Get in touch with us if you have any questions or proposals at <strong>help@laint.com</strong></p>
+    <p>Get in touch with us if you have any questions or proposals at <strong>helplaint@gmail.com</strong></p>
 
 
     <form>

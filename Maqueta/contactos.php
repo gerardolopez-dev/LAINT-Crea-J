@@ -60,7 +60,7 @@ if (isset($_SESSION['usuario'])) {
     </div>
 
     <h1 class="titulo">Contacto</h1>
-    <p>Ponte en contacto con nosotros si tienes alguna duda o propuesta a <strong>help@laint.com</strong></p>
+    <p>Ponte en contacto con nosotros si tienes alguna duda o propuesta a <strong>helplaint@gmail.com</strong></p>
 
     <form>
         <div class="row">
