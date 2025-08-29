@@ -147,7 +147,17 @@ main {
     opacity: 1; 
     visibility: visible; 
 }
-
+.separador{
+    width: 80%;
+}
+.cambioColor{
+    color: white;
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+    padding: 0 10px;
+    text-align: center;
+}
 nav {
     position: fixed;
     top: 0;

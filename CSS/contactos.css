@@ -155,7 +155,17 @@ input, textarea {
 .row input {
     flex: 1;
 }
-
+.separador{
+    width: 80%;
+}
+.cambioColor{
+    color: white;
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+    padding: 0 10px;
+    text-align: center;
+}
 .buttonEnviar {
     width: 100%;
     padding: 20px;

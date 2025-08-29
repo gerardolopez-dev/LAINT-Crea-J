@@ -53,6 +53,8 @@ if (isset($_SESSION['usuario'])) {
             <a href="../Maqueta/sign.php">Iniciar sesión</a>
             <a href="../Maqueta/sign.php">Registrarse</a>
         <?php endif; ?>
+        <hr class="separador">
+        <h4 class="cambioColor">Cambiar Tema</h4>
          <div id="contenedor-tema">
             <div class="toggle">
             </div>

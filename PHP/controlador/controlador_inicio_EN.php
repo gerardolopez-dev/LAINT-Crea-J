@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 if (isset($_SESSION['usuario']) && !empty($_SESSION['usuario'])) {
-    header("Location: ../Maqueta/index.php");
+    header("Location: ../Maqueta EN/index.php");
     exit();
 }
 

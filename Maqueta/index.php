@@ -53,6 +53,9 @@ if (isset($_SESSION['usuario'])) {
             <a href="../Maqueta/sign.php">Iniciar sesión</a>
             <a href="../Maqueta/sign.php">Registrarse</a>
         <?php endif; ?>
+
+        <hr class="separador">
+        <h4 class="cambioColor">Cambiar Tema</h4>
         <div id="contenedor-tema">
             <div class="toggle">
             </div>
@@ -75,7 +78,7 @@ if (isset($_SESSION['usuario'])) {
                 <div class="noticias">
                     <div class="texto-noti">
                         <a href="../Maqueta/Noticias/noticia1.php"><img src="../Media/mediaIndex/GoSkate.jpg"></a>
-                        <h4 class="topic">Tema: Deportes</h4>
+                        <h4 class="topic">Deportes</h4>
                         <a href="../Maqueta/Noticias/noticia1.php"><h2>Miles celebraran el dia del Skateboarding</h2></a>
                         <h4>Autor: LAINT</h4>
                     </div>

@@ -52,6 +52,8 @@ if (isset($_SESSION['usuario'])) {
             <a href="../Maqueta/sign.php">Iniciar sesión</a>
             <a href="../Maqueta/sign.php">Registrarse</a>
         <?php endif; ?>
+        <hr class="separador">
+        <h4 class="cambioColor">Cambiar Tema</h4>
         <div id="contenedor-tema">
             <div class="toggle">
             </div>
@@ -120,15 +122,15 @@ if (isset($_SESSION['usuario'])) {
                 </div>
                 <div class="face back">
                     <ul> 
-                        <li>Street: Trucos en escaleras, barandillas, bordillos y bancos.</li>
+                        <li class="lista1"><strong>Street:</strong> Trucos en escaleras, barandillas, bordillos y bancos.</li>
                         <br>
-                        <li>Vert: Ramps gigantes y medio tubos.</li>
+                        <li class="lista1"><strong>Vert:</strong> Ramps gigantes y medio tubos.</li>
                         <br>
-                        <li>Park: Combinación de obstáculos en skateparks.</li>
+                        <li class="lista1"><strong>Park:</strong> Combinación de obstáculos en skateparks.</li>
                         <br>
-                        <li>Freestyle: Trucos técnicos sobre superficie plana.</li>
+                        <li class="lista1"><strong>Freestyle:</strong> Trucos técnicos sobre superficie plana.</li>
                         <br>
-                        <li>Cruising/longboard: Más relajado, para moverse o descensos.</li>
+                        <li class="lista1"><strong>ruising/longboard:</strong>C Más relajado, para moverse o descensos.</li>
                     </ul>
               </div>
             </div>

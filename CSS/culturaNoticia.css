@@ -100,6 +100,17 @@ nav {
         flex-wrap: wrap;
     }
 }
+.separador{
+    width: 80%;
+}
+.cambioColor{
+    color: white;
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+    padding: 0 10px;
+    text-align: center;
+}
 .contenedor-texto{
     width: 600px;
     position: absolute;

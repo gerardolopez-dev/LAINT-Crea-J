@@ -53,6 +53,8 @@ if (isset($_SESSION['usuario'])) {
             <a href="../sign.php">Log in</a>
             <a href="../sign.php">Register</a>
         <?php endif; ?>
+        <hr class="separador">
+        <h4 class="cambioColor">Cambiar Theme</h4>
         <div id="contenedor-tema">
             <div class="toggle">
             </div>

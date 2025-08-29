@@ -64,7 +64,7 @@ if (isset($_SESSION['usuario'])) {
     <div class="container" >
         <div class="container-form">
            <form action="" class="sign-in" method="POST">
-                <h2>Iniciar Sesion</h2>
+                <h2>Iniciar Sesión</h2>
                 <!-- <div class="social-network">
                     <ion-icon name="logo-twitch"></ion-icon>
                     <ion-icon name="logo-twitter"></ion-icon>

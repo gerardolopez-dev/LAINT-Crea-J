@@ -100,7 +100,17 @@ nav {
         flex-wrap: wrap;
     }
 }
-
+.separador{
+    width: 80%;
+}
+.cambioColor{
+    color: white;
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+    padding: 0 10px;
+    text-align: center;
+}
 .streetball{
     position: relative;
     color: var(--text-primary);
@@ -151,11 +161,11 @@ nav {
     gap: 30px;
 }
 summary{
-    background: #9f9f9fd7;
     color: var(--text-primary);
-    padding: 20px;
+    padding: 15px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: var(--border-color) 1px solid;
     box-shadow: var(--shadow);
 }
 .titulo2{
