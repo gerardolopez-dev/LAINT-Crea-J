@@ -19,6 +19,7 @@ if (isset($_SESSION['usuario'])) {
     <title>Noticia</title>
     <link rel="stylesheet" href="../CSS/noticia.css">
     <link rel="stylesheet" href="../CSS/boton-theme.css">
+     <link rel="stylesheet" href="../CSS/particulas.css"> 
     <link rel="stylesheet" href="../CSS/language.css"> 
     <link rel="shortcut icon" href="../Media/favicon.ico" type="image/x-icon">
 </head>
@@ -147,5 +148,6 @@ if (isset($_SESSION['usuario'])) {
     <div class="overlay" id="overlay"></div>
     <script src="../JS/menuDesplegable.js"></script>
     <script src="../JS/boton.js"></script>
+    <script src="../JS/particulas.js"></script>
 </body>
 </html>

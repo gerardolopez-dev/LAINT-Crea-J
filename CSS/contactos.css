@@ -13,6 +13,8 @@ html {
     --button-hover-bg: #333333;
     --button-hover-text: #ffffff;
     --button-line: #ffffff;
+    --particle-color: rgba(0, 0, 0, 0.4);
+    --particle-glow: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
@@ -43,7 +45,10 @@ body {
     background-color: var(--background);
     color: var(--text-primary);
     transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative; 
+    z-index: 1; 
 } 
+
 nav {
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
@@ -75,6 +80,7 @@ nav {
     font-size: 16px;
     transition: color 0.3s ease;
 }
+
 .nav-section li a::after {
     content: '';
     position: absolute;
@@ -87,22 +93,27 @@ nav {
     transform-origin: center;
     transition: transform 0.6s ease;
 }
+
 .nav-section li a:hover{
     color: #aaa;
 }
+
 .nav-section li a:hover::after {
     transform: scaleX(0.8);
 }
+
 .logo{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     height: 60px;
 }
+
 .logo img{
     height: 100%;
     object-fit: contain;
 }
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -121,6 +132,7 @@ nav {
     text-align: center;
     position: relative;
     top: 100px;
+    z-index: 2; 
 }
 
 p {
@@ -129,6 +141,7 @@ p {
     margin-bottom: 40px;
     position: relative;
     top: 100px;
+    z-index: 2; 
 }
 
 form {
@@ -136,15 +149,27 @@ form {
     margin: auto;
     position: relative;
     top: 90px;
+    z-index: 2; 
+    background-color: var(--background); 
+    padding: 30px;
+    border-radius: 10px;
 }
 
 input, textarea {
     width: 96.5%;
     padding: 15px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     font-size: 14px;
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--text-primary);
 }
 
 .row {
@@ -155,9 +180,11 @@ input, textarea {
 .row input {
     flex: 1;
 }
+
 .separador{
     width: 80%;
 }
+
 .cambioColor{
     color: white;
     font-size: 16px;
@@ -166,6 +193,7 @@ input, textarea {
     padding: 0 10px;
     text-align: center;
 }
+
 .buttonEnviar {
     width: 100%;
     padding: 20px;
@@ -177,26 +205,7 @@ input, textarea {
     position: relative;
     overflow: hidden;
     transition: background-color 0.5s, color 0.3s;
-}
-
-.buttonEnviar::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 0%;
-    background-color: var(--button-line);
-    transition: width 1s ease;
-}
-
-.buttonEnviar:hover::after {
-    width: 100%;
-}
-
-.buttonEnviar:hover {
-    background-color: var(--button-hover-bg);
-    color: var(--button-hover-text);
+    border-radius: 4px;
 }
 
 .menu-button {
@@ -207,7 +216,8 @@ input, textarea {
     font-size: 16px;
     cursor: pointer;
     transition: color 0.3s ease;
-  }
+}
+
 .menu-button::after{
     content: '';
     position: absolute;
@@ -220,9 +230,11 @@ input, textarea {
     transform-origin: center;
     transition: transform 0.6s ease;
 }
+
 .menu-button:hover{
     color: #aaa;
 }
+
 .menu-button:hover::after{
     transform: scaleX(0.8);
 }
@@ -237,7 +249,7 @@ input, textarea {
     color: white;
     transition: right 0.5s ease;
     padding: 2rem 1rem;
-    z-index: 1100;
+    z-index: 1100; 
     border-left: 2px solid white;
 }
 
@@ -272,6 +284,7 @@ input, textarea {
     text-align: center;
     position: relative;
 }
+
 .side-menu a:hover{
     color: #aaa;
 }
@@ -284,11 +297,13 @@ input, textarea {
     float: right;
     cursor: pointer;
 }
+
 .Icono{
     width: 400px;
     position: relative;
     left: 10%;
 }
+
 .overlay {
     position: fixed;
     top: 0;
@@ -307,9 +322,22 @@ input, textarea {
     visibility: visible;
 }
 
+.grid-language {
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+
 .footer{
+    position: relative;
+    padding: 30em 0;
     text-align: center;
     font-size: 9px;
     color: var(--text-primary);
-    margin-top: 22rem;
+}
+.footer p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
 }

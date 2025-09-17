@@ -19,7 +19,7 @@ if (isset($_SESSION['usuario'])) {
     <title>Cultura</title>
     <link rel="stylesheet" href="../CSS/cultura.css">
     <link rel="stylesheet" href="../CSS/language.css"> 
-    <script src="../JS/animacionDeScroll.js"></script>
+    <link rel="stylesheet" href="../CSS/particulas.css"> 
     <link rel="shortcut icon" href="../Media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/boton-theme.css">
 
@@ -229,4 +229,6 @@ if (isset($_SESSION['usuario'])) {
 </body>
 <script src="../JS/menuDesplegable.js"></script>
 <script src="../JS/boton.js"></script>
+<script src="../JS/animacionDeScroll.js"></script>
+<script src="../JS/particulas.js"></script>
 </html>

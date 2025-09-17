@@ -195,6 +195,7 @@ section{
     margin: auto;
     line-height: 1.8;
 }
+
 .container3{
     width: 850px;
     display: flex;
@@ -581,3 +582,4 @@ summary{
     color: var(--text-primary);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+

@@ -1,0 +1,23 @@
+:root {
+  --particle-color: rgba(0, 0, 0, 0.6); 
+  --particle-glow: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --particle-color: rgba(255, 255, 255, 0.6); 
+  --particle-glow: rgba(255, 255, 255, 0.1);
+}
+
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  filter: drop-shadow(0 0 3px var(--particle-glow)); 
+}
+
+#particles canvas {
+  display: block;
+}
